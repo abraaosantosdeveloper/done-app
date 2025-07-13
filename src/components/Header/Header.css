@@ -1,0 +1,38 @@
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    padding: 0 2rem;
+    border-top: 3px solid var(--soft-green);
+    border-bottom: 1px solid var(--light-blue-grey);
+}
+
+.logo-container{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    height: 30px;
+}
+
+.user{
+    width:auto;
+    height: 100%;
+    grid-column: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.user-pic{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    
+}

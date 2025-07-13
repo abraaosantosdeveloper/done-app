@@ -1,0 +1,34 @@
+@import '../components/Header/Header.css';
+@import '../components/Menu/Menu.css';
+@import '../components/Main/TaskContainer.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    color: #333552;
+}
+
+ul{
+    list-style-type: none;
+}
+
+:root{
+    --light-green: #5DFDCB;
+    --soft-green: #1bd59a;
+    --text-dark-blue: #333552;
+    --text-light-blue: #525691;
+    --extra-light-blue: #eeeffb;
+    --light-blue-grey: #c2c4e0;
+    --alert-red: #f73b3b;
+    --alert-yellow: #f3c626;
+}
+.container{
+    width: 100vw;
+    height: 92vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    gap: 30px;
+    padding: 0 30px 0 0;
+}
